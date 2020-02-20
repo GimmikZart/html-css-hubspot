@@ -25,6 +25,10 @@
   clear: both;
 }
 
+.flottati {
+  float: left;
+}
+
 
 #unterzolarghezza {
   width: 30%;
@@ -266,6 +270,32 @@
   padding: 10px;
 }
 
+#statistiche .vaialcentro {
+  width: 50%;
+}
+
+#statistiche .flottati {
+  width: 25%;
+
+}
+
+#statistiche .clearfix {
+  border: 1px solid black;
+  width: 100%;
+}
+
+.sopra {
+  padding-bottom: 15px;
+}
+
+.bordosinistra {
+  padding-left: 15px;
+  border-left: 1px solid black;
+}
+
+.bordodestra {
+  border-right: 1px solid black;
+}
 
 
 
