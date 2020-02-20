@@ -25,6 +25,18 @@
   clear: both;
 }
 
+#unterzolarghezza {
+  width: 30%;
+}
+
+.testonormale {
+  font-size: 17px;
+}
+
+.testopiccolo {
+  font-size: 10px;
+}
+
 /*------------------------- PARTE ALTA -----------------------------*/
 
 /*-------------------- HEADER-------------- */
@@ -84,8 +96,8 @@
 
 #navigatore img {
   float: left;
-  width: 106px;
-  height: 30px;
+  width: 70px;
+  height: 20px;
 }
 
 #navigatore ul li{
@@ -105,9 +117,31 @@
 
 #jumbotron {
   border: 1px solid black;
-  padding: 10px;
-
+  background-color: #fef3ee;
 }
+
+#jumbotron .centratura {
+  background-image: url("../img/jumbotron.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 10px 20px;
+  padding-top: 100px;
+  padding-bottom: 240px;
+}
+
+#jumbotron p {
+  margin-top: 20px;
+}
+
+#jumbotron a {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid black;
+  margin-top: 30px;
+}
+
+
+
 
 /* ----------MEGACONTENITORE FEATURE-------- */
 #feature{
