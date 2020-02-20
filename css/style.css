@@ -1,0 +1,92 @@
+/* FOGLIO DI STILE HUBSPOT */
+
+/*--------------- REGOLE GENERALI--------------------- */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.centratura {
+  margin: 0 25%;
+  /* debug */
+  background-color: rgb(128, 147, 228);
+  padding: 30px;
+  width: 50%;
+  height: 100%;
+  border: 1px solid blue;
+
+}
+
+/*------------------------- PARTE ALTA -----------------------------*/
+
+/*-------------------- HEADER-------------- */
+
+/* ------BARRA FIXATA -----*/
+
+#boxfixato {
+  padding: 10px 0;
+  background-color: #f5f8fa;
+  border: 1px solid black;
+  width: 100%;
+}
+
+
+
+/* -------NAVIGATORE---- */
+
+#navigatore {
+  padding: 10px 0;
+  border: 1px solid black;
+}
+
+
+
+
+
+/*---------------------------- CONTENUTO PAGINA ----------------------*/
+
+/* ---------JUMBOTRON------- */
+
+#jumbotron {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+/* ----------MEGACONTENITORE FEATURE-------- */
+#feature{
+  border: 1px solid black;
+  padding: 10px;
+}
+
+
+
+
+/* ----------MEGACONTENITORE STATISTICHE-------- */
+#statistiche {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+
+
+
+/* ----------MEGACONTENITORE INVITO-------- */
+#invito {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------FOOTER--------------------------- */
