@@ -268,6 +268,7 @@
 #statistiche {
   border: 1px solid black;
   padding: 10px;
+  background-color: #00a9b7;
 }
 
 #statistiche .vaialcentro {
@@ -305,7 +306,86 @@
   padding: 10px;
 }
 
+/* BLOCCO SOPRA----------------- */
 
+#bloccosopra {
+  width: 100%;
+}
+
+/* SINISTRA----------- */
+
+#numeroclienti {
+  width: 30%;
+}
+
+#numeroclienti h5 {
+  font-size: 50px;
+
+}
+
+
+
+
+/* DESTRA-------------- */
+
+#boxloghi {
+  float: right;
+}
+
+.loghi {
+  padding: 0 20px;
+  margin-bottom: 40px;
+}
+
+#atalassian {
+  width: 160px;
+  height: 15px;
+  vertical-align: middle;
+}
+
+#doordash {
+  width: 160px;
+  height: 15px;
+  vertical-align: middle;
+}
+
+#crowd {
+  width: 160px;
+  height: 30px;
+  vertical-align: middle;
+}
+
+#purple {
+  width: 160px;
+  height: 35px;
+  vertical-align: middle;
+}
+
+#subaru {
+  width: 160px;
+  height: 45px;
+  vertical-align: middle;
+}
+
+#wistia {
+  width: 160px;
+  height: 22px;
+  vertical-align: middle;
+}
+
+#classpass {
+  width: 160px;
+  height: 50px;
+  vertical-align: middle;
+}
+
+#wmare {
+  width: 160px;
+  height: 30px;
+  vertical-align: middle;
+}
+
+/* BLOCCO SOTTO------------ */
 
 
 
