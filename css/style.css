@@ -25,6 +25,7 @@
   clear: both;
 }
 
+
 #unterzolarghezza {
   width: 30%;
 }
@@ -36,6 +37,22 @@
 .testopiccolo {
   font-size: 10px;
 }
+
+.vaialcentro {
+  display:block;
+  margin:0px auto;
+  text-align:center;
+}
+
+.testointerno {
+  width: 65%;
+}
+
+.debug {
+  padding: 20px;
+  border: 1px solid black;
+}
+
 
 /*------------------------- PARTE ALTA -----------------------------*/
 
@@ -144,10 +161,101 @@
 
 
 /* ----------MEGACONTENITORE FEATURE-------- */
+
 #feature{
   border: 1px solid black;
   padding: 10px;
+  background-color: #f5f8fa;
 }
+
+/* Parte in alto rubik + testi  */
+#rubik {
+  width: 200px;
+}
+
+
+/* Free HubSpot CRM  */
+
+#freecrm {
+  margin-top: 20px;
+  background-color: white;
+  width: 100%;
+}
+
+#libri {
+  display: block;
+  width: 200px;
+}
+
+#freecrm .sinistra{
+  width: 25%;
+  float: left;
+}
+
+#freecrm .destra {
+  width: 50%;
+  float: left;
+}
+
+
+ /* Contenitore triplo marketing
+      sales, service  */
+
+#marksalser {
+  width: 100%;
+}
+
+
+#magia, #cartella, #tavolo {
+  max-width: 200px;
+  height: 150px;
+
+}
+
+#marketing, #sales, #service {
+  float: left;
+  width: 32%;
+  border: 2px solid black;
+  padding: 20px 40px 20px 40px;
+  background-color: white;
+}
+
+#marketing p, #sales p, #service p {
+  text-align: left;
+}
+
+#sales {
+  margin: 0 2%;
+}
+
+#marksalser h6 {
+  margin-top: 20px;
+  border-top: 1px solid black;
+  padding-top: 20px;
+
+}
+
+#marksalser li {
+  list-style: none;
+  padding: 7px 0 ;
+}
+
+.check {
+  color: #ff7c5c;
+}
+
+.getstarted {
+  display: block;
+  color: white;
+  padding: 15px;
+  background-color: #ff7c5c;
+  width: 50%;
+  border-radius: 7px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  }
+
+
 
 
 
