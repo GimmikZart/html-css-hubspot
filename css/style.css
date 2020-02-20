@@ -33,6 +33,7 @@
 
 #boxfixato {
   position: fixed;
+  top: 0;
   padding: 10px 0;
   background-color: #f5f8fa;
   border: 1px solid black;
@@ -75,9 +76,24 @@
 /* -------NAVIGATORE---- */
 
 #navigatore {
+  background-color: rgb(126, 213, 195);
   padding: 10px 0;
   border: 1px solid black;
+  margin-top: 130px;
 }
+
+#navigatore img {
+  float: left;
+  width: 106px;
+  height: 30px;
+}
+
+#navigatore ul li{
+  display: inline-block;
+  float: right;
+  margin: 0 25px;
+}
+
 
 
 
@@ -90,6 +106,7 @@
 #jumbotron {
   border: 1px solid black;
   padding: 10px;
+
 }
 
 /* ----------MEGACONTENITORE FEATURE-------- */
