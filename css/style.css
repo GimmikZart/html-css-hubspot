@@ -34,6 +34,10 @@
   width: 30%;
 }
 
+.metalarghezza {
+  width: 50%;
+}
+
 .testonormale {
   font-size: 17px;
 }
@@ -318,18 +322,29 @@
   width: 30%;
 }
 
-#numeroclienti h5 {
+#numeroclienti h5:nth-child(1) {
   font-size: 50px;
-
 }
 
 
+#numeroclienti .testopiccolo {
+  margin-top: 40px;
+}
+#startgrowing {
+  margin-top: 150px;
+  font-size: 40px;
+}
+
+#numeroclienti p {
+  margin-top: 30px;
+}
 
 
 /* DESTRA-------------- */
 
 #boxloghi {
   float: right;
+  margin-top: 50px;
 }
 
 .loghi {
@@ -385,8 +400,38 @@
   vertical-align: middle;
 }
 
+#donna {
+  width: 350px;
+  float: right;
+  margin-top: 40px;
+}
+
 /* BLOCCO SOTTO------------ */
 
+/* SINISTRA */
+
+#startgrowing{
+  padding-right: 170px;
+}
+
+#startgrowing .getstarted {
+  margin: inherit;
+  margin-top: 50px;
+  font-size: 15px;
+  width: 160px;
+}
+
+#startgrowing p {
+  margin-top: 30px;
+}
+
+/* DESTRA */
+
+#donna {
+  width: 370px;
+  float: right;
+  margin-top: 40px;
+}
 
 
 
