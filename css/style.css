@@ -62,6 +62,7 @@
 }
 
 
+
 /*------------------------- PARTE ALTA -----------------------------*/
 
 /*-------------------- HEADER-------------- */
@@ -442,3 +443,25 @@
 
 
 /* ----------------------------FOOTER--------------------------- */
+
+#footerlist {
+  width: 100%;
+}
+
+#footerlist .flottati {
+  width: 25%;
+}
+
+#footerlist li:nth-child(1) {
+  font-weight: bold;
+}
+
+#footerlist li {
+  text-decoration: none;
+  list-style: none;
+  padding: 10px 0;
+}
+
+#contatta {
+  margin-top: 50px;
+}
