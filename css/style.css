@@ -2,20 +2,20 @@
 
 /*--------------- REGOLE GENERALI--------------------- */
 
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Lato", sans-serif;
 }
+
 
 .centratura {
   margin: 0 25%;
-  /* debug */
-  background-color: rgb(128, 147, 228);
-  padding: 30px;
   width: 50%;
   height: 100%;
-  border: 1px solid blue;
 
 }
 
@@ -46,6 +46,11 @@
   font-size: 10px;
 }
 
+.titologrosso {
+  color: #35485c;
+  font-weight: bold;
+}
+
 .vaialcentro {
   display:block;
   margin:0px auto;
@@ -56,13 +61,14 @@
   width: 65%;
 }
 
-.debug {
+/* .debug {
   padding: 20px;
   border: 1px solid black;
-}
+} */
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 
@@ -75,9 +81,7 @@ a {
 #boxfixato {
   position: fixed;
   top: 0;
-  padding: 10px 0;
   background-color: #f5f8fa;
-  border: 1px solid black;
   width: 100%;
 }
 
@@ -116,10 +120,8 @@ a {
 /* -------NAVIGATORE---- */
 
 #navigatore {
-  background-color: rgb(126, 213, 195);
-  padding: 10px 0;
-  border: 1px solid black;
-  margin-top: 130px;
+  background-color: white;
+  margin-top: 100px;
 }
 
 #navigatore img {
@@ -168,6 +170,11 @@ a {
   margin-top: 30px;
 }
 
+#unterzolarghezza h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
 
 
 
@@ -214,6 +221,7 @@ a {
 
 #marksalser {
   width: 100%;
+  margin-top: 30px;
 }
 
 
@@ -226,7 +234,6 @@ a {
 #marketing, #sales, #service {
   float: left;
   width: 32%;
-  border: 2px solid black;
   padding: 20px 40px 20px 40px;
   background-color: white;
 }
@@ -441,9 +448,18 @@ a {
 
 /* ----------------------------FOOTER--------------------------- */
 
+footer {
+  background-color: #33475b;
+}
+
+footer a {
+  color: #cbd6e2;
+}
+
 /* LISTA FEATURE----------------------------*/
 #footerlist {
   width: 100%;
+  padding-top: 100px;
 }
 
 #footerlist .flottati {
@@ -458,6 +474,8 @@ a {
   text-decoration: none;
   list-style: none;
   padding: 10px 0;
+  color: white;
+  font-weight: bold;
 }
 
 /* LISTA SUPPORT + SOCIAL------- */
@@ -469,6 +487,7 @@ a {
   background-color: white;
   border-radius: 5px;
   text-decoration: none;
+  color: black;
 }
 
 #zonasocial {
@@ -478,14 +497,17 @@ a {
 
 #zonasocial .flottati {
   width: 15%;
+  color: white;
 }
+
+
 
 /* LISTA LINGUE----------------------------------- */
 
 #listalingue ul {
   margin-top: 50px;
   text-align: center;
-  border-bottom: 1px solid blue;
+  border-bottom: 1px solid #7c98b6;
   padding-bottom: 50px;
 }
 
@@ -493,6 +515,7 @@ a {
   display: inline-block;
   margin: 0 20px;
   text-decoration: none;
+  font-weight: bold;
 }
 
 /* LEGAL ------------------------------------------ */
@@ -509,9 +532,17 @@ a {
 }
 
 
+#copyright p{
+  color: #cbd6e2;
+}
+
+
 #privacy {
   float: right;
+
 }
 
 #privacy a {
   margin: 0 20px;
+  color: #cbd6e2;
+  font-weight: bold;
