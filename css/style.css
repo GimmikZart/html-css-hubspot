@@ -40,10 +40,11 @@
 
 .testonormale {
   font-size: 17px;
+  color: #5e6e8b;
 }
 
 .testopiccolo {
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .titologrosso {
@@ -80,15 +81,28 @@ a {
 
 #boxfixato {
   position: fixed;
+  padding: 20px;
   top: 0;
   background-color: #f5f8fa;
   width: 100%;
+  border-bottom: 1px solid #cbd6e2;
+}
+
+select {
+  border: none;
+  font-size: 20px;
+  background-color: #f5f8fa;
+  border-right: 1px solid black;
+  padding-right: 30px;
+}
+
+select option {
+  background-color: none;
 }
 
 #lingue {
   float: left;
   padding: 10px 20px 10px;
-  border-right: 1px solid black;
 
 }
 
@@ -97,21 +111,36 @@ a {
   float: left;
   margin-left: 20px;
   padding: 10px 20px 10px;
+  color: #35485c;
+  font-weight: bold;
 }
 
 #gethubspotfree {
   float: right;
-  padding: 10px;
-  border: 1px solid black;
+  padding: 13px;
+  max-width: 150px;
+  font-size: 12px;
+  background-color: #ff7a59;
+  border-radius: 4px;
   margin-left: 10px;
 }
 
 #login {
   float: right;
-  padding: 10px;
-  border: 1px solid black;
+  padding: 10px 25px;
+  background-color: white;
+  color: #ff7a59;
+  border: 1px solid #ff7a59;
   margin-right: 10px;
+  border-radius: 4px;
+}
 
+#search {
+  float: right;
+  padding-right: 30px;
+  margin-top: 12px;
+  font-size: 20px;
+  color: #0ba8c0;
 }
 
 
@@ -121,13 +150,14 @@ a {
 
 #navigatore {
   background-color: white;
-  margin-top: 100px;
+  margin-top: 86px;
+  padding: 25px 0;
 }
 
 #navigatore img {
   float: left;
-  width: 70px;
-  height: 20px;
+  width: 110px;
+  height: 30px;
 }
 
 #navigatore ul li{
@@ -146,7 +176,6 @@ a {
 /* ---------JUMBOTRON------- */
 
 #jumbotron {
-  border: 1px solid black;
   background-color: #fef3ee;
 }
 
@@ -156,7 +185,7 @@ a {
   background-size: contain;
   background-position: 10px 20px;
   padding-top: 100px;
-  padding-bottom: 240px;
+  padding-bottom: 180px;
 }
 
 #jumbotron p {
@@ -166,8 +195,12 @@ a {
 #jumbotron a {
   display: inline-block;
   padding: 10px;
-  border: 1px solid black;
   margin-top: 30px;
+  padding: 25px 30px;
+  font-size: 17px;
+  background-color: #ff7a59;
+  border-radius: 3px;
+  font-weight: bold;
 }
 
 #unterzolarghezza h1 {
@@ -181,9 +214,9 @@ a {
 /* ----------MEGACONTENITORE FEATURE-------- */
 
 #feature{
-  border: 1px solid black;
-  padding: 10px;
+  padding-top: 60px;
   background-color: #f5f8fa;
+  padding-bottom: 60px;
 }
 
 /* Parte in alto rubik + testi  */
@@ -191,13 +224,25 @@ a {
   width: 200px;
 }
 
+#feature h3 {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+#feature p {
+  margin-top: 30px;
+  line-height: 30px;
+
+}
+
 
 /* Free HubSpot CRM  */
 
 #freecrm {
-  margin-top: 20px;
+  margin-top: 100px;
   background-color: white;
   width: 100%;
+  padding: 40px;
 }
 
 #libri {
@@ -213,8 +258,17 @@ a {
 #freecrm .destra {
   width: 50%;
   float: left;
+  padding-left: 30px;
 }
 
+#freecrm .getstarted {
+  margin-top: 30px;
+}
+
+#freecrm h5 {
+  font-size: 20px;
+  margin: 40px 0 30px 0;
+}
 
  /* Contenitore triplo marketing
       sales, service  */
@@ -246,16 +300,22 @@ a {
   margin: 0 2%;
 }
 
+#marksalser h5 {
+  font-size: 20px;
+}
+
 #marksalser h6 {
   margin-top: 20px;
   border-top: 1px solid black;
   padding-top: 20px;
-
+  font-size: 13px;
 }
 
 #marksalser li {
   list-style: none;
   padding: 7px 0 ;
+  font-size: 14px;
+
 }
 
 .check {
@@ -268,7 +328,7 @@ a {
   padding: 15px;
   background-color: #ff7c5c;
   width: 50%;
-  border-radius: 7px;
+  border-radius: 4px;
   margin-top: 10px;
   margin-bottom: 10px;
   }
@@ -281,8 +341,24 @@ a {
 /* ----------MEGACONTENITORE STATISTICHE-------- */
 .statistiche {
   border: 1px solid black;
-  padding: 10px;
+  padding: 100px 0;
   background-color: #00a9b7;
+}
+
+.statistiche h3 {
+  font-size: 30px;
+  color: white;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.statistiche p {
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 40px;
+
+
 }
 
 .statistiche .vaialcentro {
@@ -545,4 +621,4 @@ footer a {
 #privacy a {
   margin: 0 20px;
   color: #cbd6e2;
-  font-weight: bold;
+  font-weight:bold;
