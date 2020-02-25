@@ -14,12 +14,12 @@
 
 .centratura {
   margin: 0 25%;
-  width: 50%;
+  width: 1080px;;
   height: 100%;
 
 }
 
-.clearfix {
+.clearfix::after {
   content: "";
   display: table;
   clear: both;
@@ -39,7 +39,7 @@
 }
 
 .testonormale {
-  font-size: 17px;
+  font-size: 15px;
   color: #5e6e8b;
 }
 
@@ -56,6 +56,10 @@
   display:block;
   margin:0px auto;
   text-align:center;
+}
+
+.alignleft {
+  text-align: left;
 }
 
 .testointerno {
@@ -121,6 +125,11 @@ select {
   margin-left: 10px;
 }
 
+#gethubspotfree:hover {
+  background-color: #ffbcac;
+  transition: 0.3s ease-in-out;
+}
+
 #login {
   float: right;
   padding: 10px 25px;
@@ -129,6 +138,12 @@ select {
   border: 1px solid #ff7a59;
   margin-right: 10px;
   border-radius: 4px;
+}
+
+#login:hover {
+  background-color: #fff1ee;
+  color: #ff7a59;
+  transition: 0.3s ease-in-out;
 }
 
 #search {
@@ -160,6 +175,12 @@ select {
   display: inline-block;
   float: right;
   margin: 0 25px;
+  font-weight: bold;
+}
+
+#navigatore ul li a {
+  color: #33476a;
+  font-size: 17px;
 }
 
 
@@ -167,12 +188,13 @@ select {
 
 
 
-/*---------------------------- CONTENUTO PAGINA ----------------------*/
+/*---------------------------- CONTENUTO PAGINA -----------------------------------------*/
 
-/* ---------JUMBOTRON------- */
+/* ---------JUMBOTRON------------------------------------ */
 
 #jumbotron {
   background-color: #fef3ee;
+  height: 750px;
 }
 
 #jumbotron .centratura {
@@ -184,6 +206,10 @@ select {
   padding-bottom: 180px;
 }
 
+#jumbotron .titologrosso , #jumbotron p  {
+  text-align: left;
+}
+
 #jumbotron p {
   margin-top: 20px;
 }
@@ -193,9 +219,15 @@ select {
   margin-top: 30px;
   padding: 25px 30px;
   font-size: 17px;
-  background-color: #ff7a59;
+  background-color: #ff7a59;;
   border-radius: 3px;
   font-weight: bold;
+  text-align: left;
+}
+
+#jumbotron a:hover {
+  background-color: #ffbcac;
+  transition: 0.3s ease-in-out;
 }
 
 #unterzolarghezza h1 {
@@ -228,7 +260,12 @@ select {
 #feature p {
   margin-top: 30px;
   line-height: 30px;
+  font-size: 18px;
+}
 
+#feature .destra p {
+  text-align: left;
+  font-size: 15px;
 }
 
 
@@ -248,12 +285,12 @@ select {
 }
 
 #freecrm .sinistra{
-  width: 25%;
+  width: 30%;
   float: left;
 }
 
 #freecrm .destra {
-  width: 50%;
+  width: 70%;
   float: left;
   padding-left: 30px;
 }
@@ -264,7 +301,25 @@ select {
 
 #freecrm h5 {
   font-size: 20px;
-  margin: 40px 0 30px 0;
+  margin: 20px 0 20px 0;
+  text-align: left;
+}
+
+.destra h6 {
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+.destra ul {
+  margin-top: 20px;
+}
+
+.destra li {
+  list-style: none;
+  padding: 7px 0 ;
+  font-size: 14px;
+  display: inline;
+  margin-right: 30px;
 }
 
  /* Contenitore triplo marketing
@@ -303,7 +358,7 @@ select {
 
 #marksalser h6 {
   margin-top: 20px;
-  border-top: 1px solid black;
+  border-top: 1px solid #e0e6ed;
   padding-top: 20px;
   font-size: 13px;
 }
@@ -317,6 +372,7 @@ select {
 
 .check {
   color: #ff7c5c;
+  margin-right: 5px;
 }
 
 .getstarted {
@@ -336,26 +392,30 @@ select {
 
 
 /* ----------MEGACONTENITORE STATISTICHE-------- */
-.statistiche {
+.bloccostatistiche {
   padding: 100px 0;
-  background-color: #00a9b7;
+  background-image: linear-gradient(45deg, #00a4bd, #00bda5);
 }
 
-.statistiche h3 {
+.statistiche {
+  padding: 100px 0;
+}
+
+.bloccostatistiche h3 {
   font-size: 30px;
   color: white;
   font-weight: 900;
   margin-bottom: 20px;
 }
 
-.statistiche p {
+.bloccostatistiche p {
   color: white;
   line-height: 30px;
 }
 
 
 .statistiche .vaialcentro {
-  width: 50%;
+  width: 60%;
 }
 
 .statistiche .flottati {
@@ -507,6 +567,10 @@ img {
   margin-left: 0;
   font-size: 15px;
   width: 160px;
+}
+
+#startgrowing .titologrosso {
+  font-weight: 900;
 }
 
 #startgrowing p {
